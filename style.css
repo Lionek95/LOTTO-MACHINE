@@ -1,0 +1,53 @@
+html { font-family: arial; }
+
+header { 
+    position: relative; 
+    background: transparent;
+    overflow: hidden;
+    text-align: center; }
+
+h1 {
+    display: none; }
+
+button {
+    margin: 0 auto;
+    width: 600px;
+    margin: 50px auto ;
+    padding: 30px;
+    display: block;
+    background-color: yellow;
+    background: radial-gradient(#f3f2a2 22%, #e6e658 51%, #fcf805 100%);
+    color: black; 
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 7px 30px 17px -30px black;
+    border-radius: 15px;
+    font-size: 50px;
+    transition: .3s; }
+
+button:hover {
+    background: radial-gradient(#83837c 22%, #3a3a37 51%, #000000 100%);
+    color: yellow;
+    border-color: yellow;
+    box-shadow: 7px 30px 17px -30px black;
+    cursor: pointer; }
+
+div {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: yellow;
+    background: radial-gradient(circle at 35% 30%, white 2%, #fbfb35 17%, #e3e012 40%, rgb(72, 71, 4) 100%);
+    line-height: 89px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+    box-shadow: 7px 21px 15px -21px black;
+    transition: all .66s;
+    margin: 7px; }
+
+div:before {
+    position: center;
+}
